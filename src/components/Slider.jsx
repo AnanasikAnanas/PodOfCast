@@ -53,7 +53,7 @@ const Slider = () => {
                     <a href="#" className='px-[73px]'><img src={YouTube} alt="" /></a>
                 </div>
             </div>
-            <img src={Scrible} alt="" className='absolute ml-[960px] mt-[65px]'/>
+            <img src={Scrible} alt="" className='absolute left-1/2 right-1/2 mt-[65px]'/>
         </section>
     )
 }
