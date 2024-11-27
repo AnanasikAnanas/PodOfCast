@@ -5,6 +5,7 @@ import Slider from './components/Slider.jsx';
 import AboutLanding from './components/AboutLanding.jsx';
 import Listeners from './components/Listeners.jsx';
 import Features from './components/Features.jsx';
+import Content from './components/Content.jsx';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <AboutLanding/>
       <Listeners/>
       <Features/>
+      <Content/>
     </div>
   );
 }
