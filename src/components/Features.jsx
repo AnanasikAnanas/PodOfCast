@@ -1,3 +1,4 @@
+import ButtonBlack from "./ButtonBlack";
 import Face from "./SVG/Face";
 import Fire from "./SVG/Fire";
 import Scribble from "./SVG/Scribble";
@@ -30,75 +31,19 @@ function Features() {
         <h2 className="text-2xl text-[#4D4D4D]">
           Become our sponsor and get all benefits
         </h2>
-        <div className="absolute -top-48 -right-32">
+        <div className="absolute -top-44 right-36">
           <SecondScribble />
         </div>
       </div>
       <div className="grid grid-cols-3 gap-x-5 gap-y-20">
-        <div className="flex flex-col gap-6 items-center max-w-[373px]">
-          <ThirdScribble />
-          <div className="flex flex-col gap-3 items-center text-center">
-            <h3 className="text-2xl font-bold">Topic by Request</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectet pis cing elit, sed do eiusmod
-              tempor.
-            </p>
-          </div>
-        </div>
-        <div className="flex flex-col gap-6 items-center max-w-[373px]">
-          <ShiningStars />
-          <div className="flex flex-col gap-3 items-center text-center">
-            <h3 className="text-2xl font-bold">Exclusive Content</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectet pis cing elit, sed do eiusmod
-              tempor.
-            </p>
-          </div>
-        </div>
-        <div className="flex flex-col gap-6 items-center max-w-[373px]">
-          <Face />
-          <div className="flex flex-col gap-3 items-center text-center">
-            <h3 className="text-2xl font-bold">Join the Community</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectet pis cing elit, sed do eiusmod
-              tempor.
-            </p>
-          </div>
-        </div>
-        <div className="flex flex-col gap-6 items-center max-w-[373px]">
-          <SecondFace />
-          <div className="flex flex-col gap-3 items-center text-center">
-            <h3 className="text-2xl font-bold">Livestreaming Access</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectet pis cing elit, sed do eiusmod
-              tempor.
-            </p>
-          </div>
-        </div>
-        <div className="flex flex-col gap-6 items-center max-w-[373px]">
-          <Fire />
-          <div className="flex flex-col gap-3 items-center text-center">
-            <h3 className="text-2xl font-bold">Exclusive Episodes & Merch</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectet pis cing elit, sed do eiusmod
-              tempor.
-            </p>
-          </div>
-        </div>
-        <div className="flex flex-col gap-6 items-center max-w-[373px]">
-          <SecondStar />
-          <div className="flex flex-col gap-3 items-center text-center">
-            <h3 className="text-2xl font-bold">And much more!</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectet pis cing elit, sed do eiusmod
-              tempor.
-            </p>
-          </div>
-        </div>
+        <FeaturesCard svg={<ThirdScribble />} title={"Topic by Request"} />
+        <FeaturesCard svg={<ShiningStars />} title={"Exclusive Content"} />
+        <FeaturesCard svg={<Face />} title={"Join the Community"} />
+        <FeaturesCard svg={<SecondFace />} title={"Livestreaming Access"} />
+        <FeaturesCard svg={<Fire />} title={"Exclusive Episodes & Merch"} />
+        <FeaturesCard svg={<SecondStar/>} title={"And much more!"} />
       </div>
-      <button className="text-sm bg-black px-9 py-5 rounded-lg text-white font-bold subscribe-2">
-        SEE PRICING
-      </button>
+      <ButtonBlack text={"SEE PRICING"}/>
       <div className="absolute stroke-black -bottom-20 z-20">
         <Scribble />
       </div>

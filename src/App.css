@@ -2,14 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+body {
   font-family: "Montserrat Alternates", sans-serif;
 }
 
-.firstBg{
-  background-color: #F7EDE8;
+.firstBg {
+  background-color: #f7ede8;
 }
-.container{
+.container {
   max-width: 1160px;
   margin: 0 auto;
 }
@@ -17,21 +17,35 @@ body{
 .subscribe {
   box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.25);
 }
-.subscribe-2{
+.subscribe-2 {
   box-shadow: 6px 6px 0 0 rgba(0, 0, 0, 0.25);
 }
-.ideas{
+.ideas {
   padding: 58px 62px 57px 63px;
 }
-.content-card{
+.content-card {
   transition: 300ms all ease-in-out;
 }
-.content-card:hover{
-  box-shadow: 10px 10px 0px 0px #81ADC8;
+.content-card:hover {
+  box-shadow: 10px 10px 0px 0px #81adc8;
 }
-.content-card:hover .title-card-content{
-  color: #CD4631;
+.content-card:hover .title-card-content {
+  color: #cd4631;
 }
-.title-card-content{
+.title-card-content {
   transition: 300ms all ease-in-out;
+}
+.color-popular {
+  border: 2px solid var(--Vermillion, #cd4631);
+  background: var(--Champagne, #f7ede8);
+}
+
+.card-blog{
+  transition: 300ms all ease-in-out;
+}
+.card-blog:hover {
+  box-shadow: 10px 10px 0px 0px #000;
+}
+.card-blog:hover h2 {
+  color: #cd4631;
 }

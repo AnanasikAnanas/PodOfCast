@@ -6,6 +6,9 @@ import AboutLanding from './components/AboutLanding.jsx';
 import Listeners from './components/Listeners.jsx';
 import Features from './components/Features.jsx';
 import Content from './components/Content.jsx';
+import Pricing from './components/Pricing.jsx';
+import Blog from './components/Blog.jsx';
+import Cta from './components/Cta.jsx';
 
 function App() {
   return (
@@ -16,6 +19,9 @@ function App() {
       <Listeners/>
       <Features/>
       <Content/>
+      <Pricing/>
+      <Blog/>
+      <Cta/>
     </div>
   );
 }

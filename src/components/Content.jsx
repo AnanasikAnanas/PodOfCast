@@ -8,6 +8,7 @@ import Avatar from "../img/avatar.png";
 import SecondAvatar from "../img/avatar2.png";
 import Scribble from "./SVG/Scribble";
 import Sparkle from "./SVG/Sparkle";
+import ButtonBlack from "./ButtonBlack";
 
 function CardContent({ img, id, title, firsttag, secondtag }) {
   return (
@@ -50,7 +51,7 @@ function CardContent({ img, id, title, firsttag, secondtag }) {
 
 const Content = () => {
   return (
-    <section className="firstBg pt-[140px] flex flex-col gap-24 relative items-center">
+    <section className="firstBg pt-[140px] flex flex-col gap-24 relative items-center pb-36">
       <div className="flex flex-col gap-5 text-center">
         <h1 className="text-5xl font-bold">Recent Episodes</h1>
         <h2 className="text-2xl text-[#4D4D4D]">
@@ -58,7 +59,7 @@ const Content = () => {
         </h2>
       </div>
       <div className="grid grid-cols-2 container relative gap-5">
-        <div className="absolute -right-40 -top-40"><Sparkle/></div>
+        <div className="absolute w-[240px] h-[240px] -right-40 -top-40"><Sparkle/></div>
         <CardContent
           img={FirstCover}
           id={"Eps. 6"}
@@ -95,7 +96,7 @@ const Content = () => {
         />
         <CardContent img={ThirdCover} id={"Eps. 1"} title={"Are you a Perplexed Mind Person?"} firsttag={"mind-behaviour"} secondtag={"health"}/>
       </div>
-      <button className="px-9 py-5 bg-black rounded-lg subscribe-2 text-white text-sm font-bold w-fit mb-36">BROWSE ALL EPISODES</button>
+      <ButtonBlack text={"BROWSE ALL EPISODES"}/>
       <div className="absolute stroke-black -bottom-20 z-20">
         <Scribble />
       </div>
