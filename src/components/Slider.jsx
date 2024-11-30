@@ -71,15 +71,17 @@ const Slider = () => {
       <div className="container py-10 border-y-2 border-black flex items-center justify-between relative">
         <h2 className="text-[22px] font-bold">Supported by:</h2>
         <div className="flex gap-5">
-          <a href="#" className="px-[73px]">
-            <FirstSpotify/>
+          <a href="#" className="px-[73px] w-[128px] h-[34px]">
+            <FirstSpotify />
           </a>
-          <a href="#" className="px-[73px]">
-            <GooglePodcasts/>
+          <a href="#" className="px-[73px] w-[198px] h-[36px]">
+            <GooglePodcasts />
           </a>
-          <a href="#" className="px-[73px]">
-            <YouTube/>
-          </a>
+          <div className="px-[73px] w-[128px] h-[28px]">
+            <a href="#">
+              <YouTube />
+            </a>
+          </div>
         </div>
       </div>
       <div className="absolute -bottom-20 stroke-[#CD4631]">

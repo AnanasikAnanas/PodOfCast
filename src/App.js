@@ -9,6 +9,7 @@ import Content from './components/Content.jsx';
 import Pricing from './components/Pricing.jsx';
 import Blog from './components/Blog.jsx';
 import Cta from './components/Cta.jsx';
+import Footer from './components/Footer.jsx';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Pricing/>
       <Blog/>
       <Cta/>
+      <Footer/>
     </div>
   );
 }
