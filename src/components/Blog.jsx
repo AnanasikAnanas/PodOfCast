@@ -12,7 +12,7 @@ function CardBlog({ img, title, theme, date, firstTag, secondTag }) {
       <div className="flex flex-col gap-6">
         <div className="flex flex-col gap-5">
           <div className="flex flex-col gap-2">
-            <h5 className="text-sm font-semibold text-[#4D4D4D]">{theme}</h5>
+            <h5 className="text-sm  text-[#4D4D4D]">{theme}</h5>
             <h2 className="text-4xl font-bold">{title}</h2>
           </div>
           <p>
@@ -23,14 +23,14 @@ function CardBlog({ img, title, theme, date, firstTag, secondTag }) {
         </div>
         <div className="flex justify-between items-center pt-5 border-t border-[#4D4D4D]">
           <div className="flex gap-1.5">
-            <p className="px-3 py-1.5 border border-[#4D4D4D] rounded-[4px] text-xs text-[#4D4D4D] font-semibold">
+            <p className="px-3 py-1.5 border border-[#4D4D4D] rounded-[4px] text-xs text-[#4D4D4D]">
               {firstTag}
             </p>
-            <p className="px-3 py-1.5 border border-[#4D4D4D] rounded-[4px] text-xs text-[#4D4D4D] font-semibold">
+            <p className="px-3 py-1.5 border border-[#4D4D4D] rounded-[4px] text-xs text-[#4D4D4D] ">
               {secondTag}
             </p>
           </div>
-          <p className="text-xs text-[#4D4D4D] font-semibold">{date}</p>
+          <p className="text-xs text-[#4D4D4D]">{date}</p>
         </div>
       </div>
     </div>

@@ -69,18 +69,16 @@ const Slider = () => {
         </SwiperSlide>
       </Swiper>
       <div className="container py-10 border-y-2 border-black flex items-center justify-between relative">
-        <h2 className="text-[22px] font-bold">Supported by:</h2>
-        <div className="flex gap-5">
-          <a href="#" className="px-[73px] w-[128px] h-[34px]">
+        <h2 className="text-2xl font-bold">Supported by:</h2>
+        <div className="flex w-[865px] justify-center gap-40">
+          <div className=" w-[128px]">
             <FirstSpotify />
-          </a>
-          <a href="#" className="px-[73px] w-[198px] h-[36px]">
-            <GooglePodcasts />
-          </a>
-          <div className="px-[73px] w-[128px] h-[28px]">
-            <a href="#">
+          </div>
+          <div className=" w-[198px]">
+            <GooglePodcasts/>
+          </div>
+          <div className=" w-[128px]">
               <YouTube />
-            </a>
           </div>
         </div>
       </div>

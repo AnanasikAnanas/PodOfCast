@@ -5,7 +5,7 @@ function Swiperslide() {
   return (
     <div className="p-10 rounded-lg bg-white flex flex-col gap-6">
       <h2 className="text-9xl text-[#CD4631] h-[64px]">“</h2>
-      <p className="text-2xl font-semibold">
+      <p className="text-2xl ">
         Lorem ipsum dolor sit amet consectet piscing elit, sed do eiusmod tempor
         incidi ut labore et dolore magna aliqua.{" "}
       </p>

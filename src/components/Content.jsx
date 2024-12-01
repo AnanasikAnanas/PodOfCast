@@ -21,7 +21,7 @@ function CardContent({ img, id, title, firsttag, secondtag }) {
             <h2 className="text-2xl font-bold border-b border-black pb-3 title-card-content">
               {title}
             </h2>
-            <p className="text-[#4D4D4D] text-sm font-semibold">
+            <p className="text-[#4D4D4D] text-sm">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
               ac ultrices odio.{" "}
             </p>
@@ -30,10 +30,10 @@ function CardContent({ img, id, title, firsttag, secondtag }) {
       </div>
       <div className="flex justify-between items-center">
         <div className="flex gap-1.5">
-          <div className="px-3 py-1.5 border border-black rounded text-xs font-semibold">
+          <div className="px-3 py-1.5 border border-black rounded text-xs">
             {firsttag}
           </div>
-          <div className="px-3 py-1.5 border border-black rounded text-xs font-semibold">
+          <div className="px-3 py-1.5 border border-black rounded text-xs">
             {secondtag}
           </div>
         </div>

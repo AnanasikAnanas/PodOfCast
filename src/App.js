@@ -1,30 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
-import Header from './components/Header.jsx';
-import Slider from './components/Slider.jsx';
-import AboutLanding from './components/AboutLanding.jsx';
-import Listeners from './components/Listeners.jsx';
-import Features from './components/Features.jsx';
-import Content from './components/Content.jsx';
-import Pricing from './components/Pricing.jsx';
-import Blog from './components/Blog.jsx';
-import Cta from './components/Cta.jsx';
-import Footer from './components/Footer.jsx';
+import logo from "./logo.svg";
+import "./App.css";
+import { BrowserRouter, Routes, Route, createBrowserRouter } from 'react-router-dom';
+import Landing from "./components/pages/Landing.jsx";
+import About from "./components/pages/About.jsx";
+
+// const router = createBrowserRouter([
+//   {
+//     path: "/",
+//     element: <Landing />,
+//   },
+//   {
+//     path: "/about",
+//     element: <About />,
+//   },
+// ]);
 
 function App() {
   return (
-    <div className=''>
-      <Header/>
-      <Slider/>
-      <AboutLanding/>
-      <Listeners/>
-      <Features/>
-      <Content/>
-      <Pricing/>
-      <Blog/>
-      <Cta/>
-      <Footer/>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        {/* подстановочный путь */}
+        <Route path="/" element={<Landing/>}/>
+        <Route path="/about" element={<About/>}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

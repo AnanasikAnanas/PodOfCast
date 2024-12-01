@@ -46,7 +46,7 @@ const Cta = () => {
       <div className="flex flex-col gap-6 items-center">
         <ButtonBlack text={"DOWNLOAD NOW"} />
         <div className="flex flex-col gap-2.5 items-center">
-          <p className="text-sm text-[#4D4D4D] font-semibold">
+          <p className="text-sm text-[#4D4D4D] ">
             Content also available on:
           </p>
           <div className="flex gap-5">

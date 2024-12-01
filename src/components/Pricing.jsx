@@ -35,10 +35,10 @@ function Benefits({ popular, first, second, third, fourth, fifth }) {
       <h3 className="text-sm text-[#4D4D4D] font-bold">What’s included:</h3>
       <div className="flex flex-col gap-2.5">
         <p className="font-bold">{first}</p>
-        <p className="font-semibold">{second}</p>
-        <p className="font-semibold">{third}</p>
-        <p className="font-semibold">{fourth}</p>
-        <p className="font-semibold">{fifth}</p>
+        <p className="">{second}</p>
+        <p className="">{third}</p>
+        <p className="">{fourth}</p>
+        <p className="">{fifth}</p>
       </div>
     </div>
   );
