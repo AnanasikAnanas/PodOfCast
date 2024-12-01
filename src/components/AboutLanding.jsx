@@ -9,7 +9,7 @@ import Scribble from "./SVG/Scribble.jsx";
 function AboutLanding() {
   return (
     <section className="flex flex-col pb-[140px] items-center pt-[100px] gap-24 container relative">
-      <h1 className="text-5xl font-bold text-center tracking-tighter leading-tight max-w-[735px]">
+      <h1 className="text-6xl font-bold text-center tracking-tighter leading-tight max-w-[735px]">
         Talk. Listen. Get inspired by every minute of it.
       </h1>
       <div className="flex gap-[200px]">

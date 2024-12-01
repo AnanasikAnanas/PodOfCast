@@ -51,3 +51,6 @@ html{
 .card-blog:hover h2 {
   color: #cd4631;
 }
+.about-card-shadow{
+  box-shadow: 6px 6px 0px 0px #CD4631;
+}

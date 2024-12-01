@@ -27,7 +27,7 @@ function Features() {
   return (
     <section className="flex flex-col items-center gap-24 relative pt-[140px] pb-36">
       <div className="flex flex-col gap-5 text-center relative">
-        <h1 className="text-5xl font-bold">Membership benefits</h1>
+        <h1 className="text-6xl font-bold">Membership benefits</h1>
         <h2 className="text-2xl text-[#4D4D4D]">
           Become our sponsor and get all benefits
         </h2>

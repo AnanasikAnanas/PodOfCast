@@ -14,7 +14,7 @@ function Listeners() {
         <div className="absolute -left-24 top-20">
           <Sparking />
         </div>
-        <h1 className="text-5xl font-bold">What our listeners say</h1>
+        <h1 className="text-6xl font-bold">What our listeners say</h1>
         <h2 className="text-2xl text-[#4D4D4D]">
           Their experience throughout every platform
         </h2>

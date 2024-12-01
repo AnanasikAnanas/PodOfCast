@@ -36,7 +36,7 @@ const Cta = () => {
         <p className="text-sm text-[#CD4631] font-bold px-1.5 py-[3px] border-[1px] border-[#CD4631] rounded-[4px] w-fit ">
           BETA
         </p>
-        <h1 className="text-5xl font-bold max-w-[486px]">
+        <h1 className="text-6xl font-bold max-w-[486px]">
           Available now Pod of Cast App
         </h1>
         <h2 className="text-2xl text-[#4D4D4D]">

@@ -53,7 +53,7 @@ const Content = () => {
   return (
     <section className="firstBg pt-[140px] flex flex-col gap-24 relative items-center pb-36">
       <div className="flex flex-col gap-5 text-center">
-        <h1 className="text-5xl font-bold">Recent Episodes</h1>
+        <h1 className="text-6xl font-bold">Recent Episodes</h1>
         <h2 className="text-2xl text-[#4D4D4D]">
           Available on your favorite platform
         </h2>

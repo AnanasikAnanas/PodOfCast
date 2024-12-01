@@ -48,7 +48,7 @@ const Pricing = () => {
   return (
     <section className="flex flex-col relative items-center pt-32 gap-24 pb-36">
       <div className="flex flex-col gap-5 text-center relative">
-        <h1 className="text-5xl font-bold">Become our sponsor</h1>
+        <h1 className="text-6xl font-bold">Become our sponsor</h1>
         <h2 className="text-2xl text-[#4D4D4D]">
           Get exclusive episodes, merch and more
         </h2>
