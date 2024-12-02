@@ -3,8 +3,8 @@ function SecondScribble() {
     <div className="absolute">
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="292"
-        height="292"
+        width=""
+        height=""
         viewBox="0 0 292 292"
         fill="none"
       >

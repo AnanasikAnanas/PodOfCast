@@ -11,7 +11,7 @@ import ThirdScribble from "./SVG/ThirdScribble";
 function FeaturesCard({ svg, title }) {
   return (
     <div className="flex flex-col gap-6 items-center max-w-[373px]">
-      {svg}
+      <div className="w-[78px]">{svg}</div>
       <div className="flex flex-col gap-3 items-center text-center">
         <h3 className="text-2xl font-bold">{title}</h3>
         <p>
@@ -31,7 +31,7 @@ function Features() {
         <h2 className="text-2xl text-[#4D4D4D]">
           Become our sponsor and get all benefits
         </h2>
-        <div className="absolute -top-44 right-36">
+        <div className="absolute -top-36 -right-28 w-60">
           <SecondScribble />
         </div>
       </div>
@@ -41,9 +41,9 @@ function Features() {
         <FeaturesCard svg={<Face />} title={"Join the Community"} />
         <FeaturesCard svg={<SecondFace />} title={"Livestreaming Access"} />
         <FeaturesCard svg={<Fire />} title={"Exclusive Episodes & Merch"} />
-        <FeaturesCard svg={<SecondStar/>} title={"And much more!"} />
+        <FeaturesCard svg={<SecondStar />} title={"And much more!"} />
       </div>
-      <ButtonBlack text={"SEE PRICING"}/>
+      <ButtonBlack text={"SEE PRICING"} />
       <div className="absolute stroke-black -bottom-20 z-20">
         <Scribble />
       </div>

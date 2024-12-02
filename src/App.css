@@ -48,6 +48,9 @@ html{
 .card-blog:hover {
   box-shadow: 10px 10px 0px 0px #000;
 }
+.host-card{
+  box-shadow: 10px 10px 0px 0px #000;
+}
 .card-blog:hover h2 {
   color: #cd4631;
 }
